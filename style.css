@@ -149,24 +149,6 @@ fa-search {
     height: 270px;
 }
 
-.product-bottom .fa {
-    color: #696969;
-    font-size: 10px;
-}
-
-.product-bottom h3{
-    color: #006400;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.product-bottom h5 {
-    color: #008080;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-weight: bold;
-}
-
 .product-top .overlay {
     display: block;
     position: absolute;
@@ -190,4 +172,22 @@ fa-search {
     opacity: 1;
     margin-left: 1px;
     transition: 0.1s;
+}
+
+.product-bottom .fa {
+    color: #696969;
+    font-size: 10px;
+}
+
+.product-bottom h3{
+    color: #006400;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-bottom h5 {
+    color: #008080;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
