@@ -241,7 +241,40 @@ fa-search {
     }
 
     .icon {
-        margin: auto;
-        padding: 0 0 0 50px;
+        padding-left: 25%;
+    }
+
+    .icon img {
+        width: 30px;
+        height: 30px;
+        margin: 10px auto 0 auto;
+    }
+
+    .icon #cart-icon {
+        width: 33px;
+        height: 38px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-top: 6px;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container h2 {
+        width: 190px;
+        font-size: 20px;
+    }
+
+    .container h2::after {
+        left: 62px;
+        width: 190px;
     }
 }
