@@ -92,22 +92,14 @@ fa-search {
     margin-right: 5px;
 }
 
-.social_icon {
-    width: 50px;
-    height: 35px;
-    padding: 7px;
-    margin: 1px;
-    cursor: pointer;
-}
-
 .icon {
-    padding-left: 35px;
+    padding: 0 0 0 35%;
 }
 
 .icon img {
     width: 35px;
     height: 35px;
-    margin-top: 10px;
+    margin: 10px 0 0 0;
 }
 
 .icon #cart-icon {
@@ -149,7 +141,7 @@ fa-search {
     height: 270px;
 }
 
-.product-top .overlay {
+ .overlay {
     display: block;
     position: absolute;
     top: 1.6px;
@@ -157,7 +149,7 @@ fa-search {
     margin: 70px;
 }
 
-.product-top .overlay .fa {
+ .overlay .fa {
     background: black;
     color: #00BFFF;
     cursor: pointer;
@@ -165,7 +157,16 @@ fa-search {
     width: 35px;
     font-size: 20px;
     padding: 7px;
-    margin: 1px 0 0 2px;
+    margin: 5% 5% 10% 5%;
+}
+
+.social_icon {
+    width: 50%;
+    height: 35px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 0%;
+    cursor: pointer;
 }
 
 .product-top .overlay:hover {
