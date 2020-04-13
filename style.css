@@ -17,7 +17,7 @@ body {
     top: 0;
     margin-bottom: 20px;
     background: white;
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid purple;
     z-index: 2;
 }
 
@@ -37,7 +37,7 @@ fa-search {
 
 .form-control {
     margin: 10px 0 0 20px;
-    border: 1px solid orange !important;
+    border: 1px solid purple !important;
     border-top-left-radius: 20px !important;
     border-top-right-radius: 0 !important;
     border-bottom-left-radius: 20px !important;
@@ -45,8 +45,8 @@ fa-search {
 }
 
 .input-group-text {
-    background: orange;
-    border: 5px solid orange !important;
+    background: purple;
+    border: 5px solid purple !important;
     margin: 8.5px 3px 10px 3px !important;
     border-top-left-radius: 0 !important;
     border-top-right-radius: 20px !important;
@@ -73,7 +73,7 @@ fa-search {
     list-style: none;
     border-left: 1px solid white;
     padding: 15px 35px;
-    background: orange;
+    background: purple;
     text-align: center;
     cursor: pointer;
 }
@@ -102,6 +102,7 @@ fa-search {
 .icon #cart-icon {
     width: 35px;
     height: 40px;
+    background: transparent;
 }
 
 .container {
