@@ -1,0 +1,21 @@
+/*Base Reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: white;
+    font-family: sans-serif;
+}
+
+/*Navigation Bar*/
+
+.top-nav-bar {
+    position: sticky;
+    top: 0;
+}
