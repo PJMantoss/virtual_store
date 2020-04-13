@@ -30,6 +30,15 @@ body {
     margin: 5px 10px;
 }
 
+.form-control {
+    margin: 10px 0 0 20px;
+    border: 1px solid orange;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0;
+}
+
 /*Menu bar*/
 
 .menu-bar {
