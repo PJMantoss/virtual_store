@@ -212,7 +212,7 @@ fa-search {
 
 #love > span > a {
     text-decoration: none;
-    color: rgb(4, 80, 4);
+    color: purple;
 }
 
 @media(max-width: 900px){
