@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background: white;
     font-family: sans-serif;
@@ -93,7 +89,8 @@ fa-search {
 }
 
 .icon {
-    padding: 0 0 0 35%;
+    padding-left: 35%;
+    background: transparent;
 }
 
 .icon img {
@@ -125,11 +122,12 @@ fa-search {
 
 .container h2::after {
     content: '';
-    position: relative;
-    left: 62px;
-    top: 34px;
     border-top: 40px solid #0062cc;
     border-right: 40px solid transparent;
+    position: relative;
+    left: 132px;
+    top: 35px;
+
 }
 
 .row {
@@ -144,9 +142,9 @@ fa-search {
  .overlay {
     display: block;
     position: absolute;
-    top: 1.6px;
+    top: 10%;
     opacity: 0;
-    margin: 70px;
+    width: 70px
 }
 
  .overlay .fa {
@@ -165,13 +163,12 @@ fa-search {
     height: 35px;
     padding: 7px;
     margin: 5%;
-    margin-bottom: 0%;
     cursor: pointer;
 }
 
 .product-top .overlay:hover {
     opacity: 1;
-    margin-left: 1px;
+    margin-left: 5%;
     transition: 0.1s;
 }
 
