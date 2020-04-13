@@ -110,6 +110,11 @@ fa-search {
     margin-top: 10px;
 }
 
+.icon #cart-icon {
+    width: 35px;
+    height: 40px;
+}
+
 .container {
     width: 100%;
     margin-top: 10px;
@@ -148,7 +153,6 @@ fa-search {
     display: block;
     position: absolute;
     opacity: 0;
-    top: 10%;
     margin: 70px;
 }
 
