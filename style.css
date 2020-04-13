@@ -114,7 +114,7 @@ fa-search {
 }
 
 .container h2 {
-    background: #0062cc;
+    background: black;
     color: white;
     width: 280px;
     height: 40px;
@@ -124,7 +124,7 @@ fa-search {
 
 .container h2::after {
     content: '';
-    border-top: 40px solid #0062cc;
+    border-top: 40px solid black;
     border-right: 40px solid transparent;
     position: relative;
     left: 132px;
