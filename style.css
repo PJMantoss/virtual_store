@@ -17,5 +17,10 @@ body {
 
 .top-nav-bar {
     position: sticky;
+    height: 57px;
     top: 0;
+    margin-bottom: 20px;
+    background: white;
+    border-bottom: 3px solid orange;
+    z-index: 2;
 }
