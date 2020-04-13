@@ -149,10 +149,27 @@ fa-search {
     height: 270px;
 }
 
-.overlay {
+.product-top .overlay {
     display: block;
     position: absolute;
+    top: 1.6px;
     opacity: 0;
     margin: 70px;
 }
 
+.product-top .overlay .fa {
+    background: black;
+    color: #00BFFF;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 1px 0 0 2px;
+}
+
+.product-top .overlay:hover {
+    opacity: 1;
+    margin-left: 1px;
+    transition: 0.1s;
+}
