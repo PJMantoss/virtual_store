@@ -102,7 +102,6 @@ fa-search {
 .icon #cart-icon {
     width: 35px;
     height: 40px;
-    background: transparent;
 }
 
 .container {
@@ -214,4 +213,35 @@ fa-search {
 #love > span > a {
     text-decoration: none;
     color: rgb(4, 80, 4);
+}
+
+@media(max-width: 900px){
+    .top-nav-bar {
+        height: auto;
+        border-bottom: 1px;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+
+    .menu-bar {
+        width: 100%;
+    }
+
+    .menu-bar ul {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .menu-bar ul li {
+        align-self: center;
+        height: 50px;
+        width: 100%;
+    }
+
+    .icon {
+        margin: auto;
+        padding: 0 0 0 50px;
+    }
 }
