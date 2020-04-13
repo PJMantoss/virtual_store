@@ -61,6 +61,7 @@ fa-search {
     width: 40%;
     height: 57px;
     float: right;
+    z-index: 2;
 }
 
 .menu-bar ul {
@@ -109,6 +110,7 @@ fa-search {
     margin-top: 10px;
     font-family: sans-serif;
     letter-spacing: 1px;
+    z-index: 1;
 }
 
 .container h2 {
